@@ -7,15 +7,18 @@ public class Maximode3Numeros {
         int b = 12;
         int c = 9;
 
-        if (b == b) {
-            System.out.println("El mayor es " + b);
-        if (a < b);
-            System.out.println("No es mayor.");
-            if (c < b);
-            System.out.println("No es mayor.");
+        int mayor = a;
+
+        if (b > mayor)
+        {
+            mayor = b;
+            {
+                if (c > mayor)
+                {
+                    mayor = c;
+                }
+                System.out.println("Es el numero mayor." + mayor);
+            }
         }
-
-
-
     }
 }

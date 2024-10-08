@@ -3,10 +3,10 @@ package ejercicios;
 public class PromedioDe3Numeros {
     public static void main(String[] args) {
 
-        int Nota1 =7;
-        int Nota2 =8;
-        int Nota3 =4;
-
-
+        int a =4;
+        int b =9;
+        int c =13;
+        double promedio = (a+b+c) / 3.0;
+        System.out.println("El promedio es: " + promedio);
     }
 }

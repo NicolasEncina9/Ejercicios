@@ -5,12 +5,14 @@ package ejercicios;
 public class SumadeNumerosPares {
     public static void main(String[] args) {
 
-        int a = 1;
-        int b = 100;
+        int i = 1;
 
-        for (int i = 2; i<2; i++);{
-            a += i;
+        while (i <= 100) {
+            if (i % 2 == 1) {
+                i++;
+                System.out.println(i);
+                i++;
+            }
         }
-
     }
 }
